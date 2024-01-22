@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Playfair Display, Merriweather, serif !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, small {
+    color: black
+}
+
+.subtitle {
+    padding: 10px;
+    background: rgba(155, 155, 155, 0.284);
+    border-radius: 30px
+}
+
+.pct, #elections {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0px;
+}
+
+.title-graph {
+    display: block;
+    font-size: 25px;
+    font-family: serif;
+}
+
+.carte {
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+    background-color: #fff;
+    padding: 10px;
+    /* margin: 10px; */
+}
+
+.nav-icon {
+    margin-right: 7px !important;
+}
+
+nav a:hover {
+    text-decoration: none !important;
+    background-color: rgba(175, 175, 175, 0.172) !important;
+}
+
+nav a svg {
+    font-size: 20px !important;
+}
