@@ -75,20 +75,6 @@ sidebar = dac.Sidebar(
     opacity=0.9
 )
 
-# body = dac.Body(
-#     dac.TabItems([
-#         cards_tab,
-#         social_cards_tab,
-#         tab_cards_tab,
-#         basic_boxes_tab,
-#         value_boxes_tab,
-#         dac.TabItem(html.P('Gallery 1 (You can add Dash Bootstrap Components!)'),
-#                     id='content_gallery_1'),
-#         dac.TabItem(html.P('Gallery 2 (You can add Dash Bootstrap Components!)'),
-#                     id='content_gallery_2'),
-#     ])
-# )
-
 
 controlbar = dac.Controlbar(
     [

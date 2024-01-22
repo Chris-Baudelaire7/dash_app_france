@@ -13,11 +13,7 @@ layout = html.Div(className="info", children=[
     
     html.H1("Démographie en France", className="fw-bold toggle-button"),    
 
-    dcc.Dropdown(
-        id="city-picker",
-        options=[{"label": city, "value": city} for city in list(df_infos.ville.unique())],
-        value="Paris (75000)"
-    ),
+    select,
     
     html.Div(className="mt-4 text-end", children=[
         html.H4("Population Française", className="fw-bold text-end subtitle px-4 d-inline")
