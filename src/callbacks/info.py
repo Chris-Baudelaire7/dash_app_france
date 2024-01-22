@@ -35,7 +35,7 @@ def update_location(ville_choisie):
     marker = folium.Marker(location=[latitude, longitude])
     marker.add_to(carte)
 
-    fichier = "locations/localisation_" + ville_choisie + ".html"
+    fichier = "locations\\localisation_" + ville_choisie + ".html"
 
     if not os.path.isfile(fichier):
         carte.save(fichier)
