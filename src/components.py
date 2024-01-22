@@ -103,27 +103,27 @@ footer = dac.Footer(right_text="2024", children=[
 ])
 
 
-select = dmc.Select(
-    id="city-picker",
-    data=list(df_infos.ville.unique()),
-    value="Paris (75000)",
-    label="Selectionner une ville",
-    icon=DashIconify(icon="radix-icons:magnifying-glass"),
-    rightSection=DashIconify(icon="radix-icons:chevron-down"),
-    description="Toutes les villes de France",
-    dropdownPosition="flip",
-    filterDataOnExactSearchMatch=True,
-    initiallyOpened=True,
-    nothingFound="nothingFound",
-    required=True,
-    selectOnBlur=True,
-    shadow=True,
-    switchDirectionOnFlip=True,
-    transition="skew-down",
-    transitionDuration=400,
-    withAsterisk=True,
-    style={"fontFamily": "serif", "width": 500},
-)
+# select = dmc.Select(
+#     id="city-picker",
+#     data=list(df_infos.ville.unique()),
+#     value="Paris (75000)",
+#     label="Selectionner une ville",
+#     icon=DashIconify(icon="radix-icons:magnifying-glass"),
+#     rightSection=DashIconify(icon="radix-icons:chevron-down"),
+#     description="Toutes les villes de France",
+#     dropdownPosition="flip",
+#     filterDataOnExactSearchMatch=True,
+#     initiallyOpened=True,
+#     nothingFound="nothingFound",
+#     required=True,
+#     selectOnBlur=True,
+#     shadow=True,
+#     switchDirectionOnFlip=True,
+#     transition="skew-down",
+#     transitionDuration=400,
+#     withAsterisk=True,
+#     style={"fontFamily": "serif", "width": 500},
+# )
 
 
 
